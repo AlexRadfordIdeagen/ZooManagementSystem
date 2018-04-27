@@ -47,7 +47,7 @@ namespace Zoo.ConsoleApp
                 Console.WriteLine("Grooming the animals...");
                 groomingScheduler.AssignGroomingJobs(keepers, animals);
                 Console.WriteLine("Cleaning out the enclosures...");
-                muckCleaningScheduler.AssignGroomingJobs(keepers, animals);
+                muckCleaningScheduler.AssignCleaningJobs(keepers, animals);
 
                 Console.WriteLine("Done. Results:");
 

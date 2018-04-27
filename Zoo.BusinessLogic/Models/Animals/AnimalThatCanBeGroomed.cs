@@ -17,7 +17,7 @@ namespace Zoo.BusinessLogic.Models.Animals
     
     public override string ToString()
     {
-      return base.ToString() + $"; Last Groomed {lastGroomed}";
+      return $"{base.ToString()} Last Groomed {lastGroomed}";
     }
 
   }

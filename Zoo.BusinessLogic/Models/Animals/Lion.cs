@@ -2,12 +2,13 @@
 
 namespace Zoo.BusinessLogic.Models.Animals
 {
-  public class Lion : Animal , ICanHaveMuckSweptOut
+  public class Lion : Animal, ICanHaveMuckSweptOut
     {
+
         private DateTime lastCleaned;
 
 
-    public Lion(DateTime dateOfBirth) : base(dateOfBirth)
+        public Lion(DateTime dateOfBirth) : base(dateOfBirth)
     {
     }
         public void Clean()
@@ -17,7 +18,7 @@ namespace Zoo.BusinessLogic.Models.Animals
 
         public override string ToString()
         {
-            return base.ToString() + $"; Last Cleaned {lastCleaned}";
+            return $"{base.ToString()} Last Cleaned {lastCleaned}";
         }
 
     }

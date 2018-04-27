@@ -26,9 +26,9 @@ namespace Zoo.BusinessLogic.Models
         {
             animalToGroom.Groom();
         }
-        public void CleanableAnimal(ICanHaveMuckSweptOut animalToGroom)
+        public void CleanableAnimal(ICanHaveMuckSweptOut animalToClean)
         {
-            animalToGroom.Clean();
+            animalToClean.Clean();
         }
     }
 }
